@@ -81,6 +81,7 @@ Autofarm:AddToggle({
         }
         loadstring(game:HttpGet("https://polarsblade.xyz/scripts/auniversaltime"))()
     end
+end
 })
 
 Autofarm:AddButton({
