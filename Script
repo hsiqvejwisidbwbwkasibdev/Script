@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/hsiqvejwisidbwbwkasibdev/test4/main/Orion", true))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/hsiqvejwisidbwbwkasibdev/Script/main/Orion", true))()
 local Window = OrionLib:MakeWindow({Name = "A Universal Time", TestMode = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 -- Windows
