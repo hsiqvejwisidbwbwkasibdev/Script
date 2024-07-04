@@ -68,11 +68,9 @@ Autofarm:AddToggle({
 Autofarm:AddToggle({
 	Name = "Autofarm Curses",
 	Default = false,
-	Callback = function(s)
-        getgenv().Sigma = s
-        if not getgenv().Sigma then return end
+	Callback = function(g)
         _G.configurations = {
-            switch = a, -- toggle farm with true = on / false = off
+            switch = g, -- toggle farm with true = on / false = off
             farmlocation = "desert", -- desert / centercity
             autosell = true,
             sellinterval = 300, -- in seconds
