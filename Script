@@ -68,9 +68,9 @@ Autofarm:AddToggle({
 Autofarm:AddToggle({
 	Name = "Autofarm Curses",
 	Default = false,
-	Callback = function(S)
-        getgenv().AutofarmCurse = S
-        if not getgenv().AutofarmCurse then return end
+	Callback = function(s)
+        getgenv().Sigma = s
+        if not getgenv().Sigma then return end
         _G.configurations = {
             switch = a, -- toggle farm with true = on / false = off
             farmlocation = "desert", -- desert / centercity
@@ -80,9 +80,7 @@ Autofarm:AddToggle({
             autostats = true,
         }
         loadstring(game:HttpGet("https://polarsblade.xyz/scripts/auniversaltime"))()
-      end
-   end
-end
+    end
 })
 
 Autofarm:AddButton({
