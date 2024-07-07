@@ -107,7 +107,7 @@ Keybind:AddToggle({
     getgenv().UseR = R
     while true do
         if not getgenv().UseR then return end
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.R,false,game)
     wait(0.1) 
    end
 end
@@ -120,7 +120,7 @@ Keybind:AddToggle({
     getgenv().UseQ = Q
     while true do
         if not getgenv().UseQ then return end
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.Q,false,game)
     wait(0.1) 
    end
 end
@@ -133,7 +133,7 @@ Keybind:AddToggle({
     getgenv().UseG = G
     while true do
         if not getgenv().UseG then return end
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.G,false,game)
     wait(0.1) 
    end
 end
@@ -146,7 +146,7 @@ Keybind:AddToggle({
     getgenv().UseY = Y
     while true do
         if not getgenv().UseY then return end
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.Y,false,game)
     wait(0.1) 
    end
 end
